@@ -4,8 +4,10 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    public float speed = 1.0f;
-    
+    [SerializeField]public float speed = 1.0f;
+
+    [SerializeField]public float jumpForce = 1.0f;
+
     Rigidbody2D rigidbody;
 
     private void Start()
@@ -28,6 +30,7 @@ public class PlayerController : MonoBehaviour
             f = new Vector2(-speed,0);
         }
         
+
         rigidbody.AddForce(f);
     }
    
