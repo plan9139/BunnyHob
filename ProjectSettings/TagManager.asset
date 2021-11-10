@@ -6,6 +6,10 @@ TagManager:
   tags:
   - Platform
   - Spike
+  - End
+  - End2
+  - End3
+  - Music
   layers:
   - Default
   - TransparentFX
@@ -43,6 +47,6 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: 
+  - name: foreground
     uniqueID: 2034552717
     locked: 0
